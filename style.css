@@ -1,0 +1,61 @@
+@font-face {
+  font-family: terminal;
+  src: url("data/terminal-grotesque-webfont.woff") format("woff");
+}
+body {
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+nav {
+  margin:50px;
+}
+
+
+a{
+  text-align: left;
+  justify-content: left;
+  display: flex;
+  justify-content: space-between;
+  font-family: terminal;
+  font-size: 40px;
+  -webkit-text-stroke: 0.5px black;
+  color: white;
+  text-decoration: none;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: blue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: dashed 0.6px;
+}
+
+a:hover {
+  color: #12fc35;
+  transition: .1s ease-in-out;
+}
+
+div{
+  text-decoration: none;
+  font-family: terminal;
+  line-height: 25px;
+  font-size: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99;
+  border: dashed 0.6px;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+
+}
+
+.titre {
+  bottom:180px;
+  color: #12fc35;
+}
