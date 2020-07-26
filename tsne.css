@@ -30,7 +30,7 @@ h2{
   color:white;
   margin:50px;
   box-shadow: 0 0 24px #00000075;
-  -webkit-text-stroke: 0.5px black;
+  -webkit-text-stroke: 0.15px black;
   word-wrap: break-word;
   background-color: #ffffff25;
 }
