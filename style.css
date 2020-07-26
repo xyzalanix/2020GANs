@@ -1,6 +1,6 @@
 @font-face {
   font-family: terminal;
-  src: url("data/terminal-grotesque-webfont.woff") format("woff");
+  src: url("terminal-grotesque-webfont.woff") format("woff");
 }
 body {
   background-color: #000;
