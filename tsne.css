@@ -17,7 +17,7 @@ div.description {
   justify-content: left;
   padding:10px;
   margin:50px;
-  box-shadow: 0 0 24px #000000;
+  box-shadow: 0 0 24px #00000075;
   background-color: #ffffff25;
 }
 
@@ -29,7 +29,7 @@ h2{
   font-size: 140px;
   color:white;
   margin:50px;
-  box-shadow: 0 0 24px #000000;
+  box-shadow: 0 0 24px #00000075;
   word-wrap: break-word;
   background-color: #ffffff25;
   text-shadow: 0 0 4px #000000;
