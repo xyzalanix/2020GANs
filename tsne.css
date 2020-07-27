@@ -74,6 +74,11 @@ a.watch {
   /* background-color: #12fc35; */
 }
 
+a:active{
+  background-color: #12fc35;
+
+}
+
 .popup {
   visibility: hidden;
 
