@@ -21,7 +21,7 @@ a{
   justify-content: space-between;
   font-family: terminal;
   font-size: 40px;
-  -webkit-text-stroke: 0.5px black;
+  /* -webkit-text-stroke: 0.5px black; */
   color: white;
   text-decoration: none;
   padding-left:15px;
