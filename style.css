@@ -8,20 +8,16 @@ body {
   flex-wrap: wrap;
   justify-content: left;
 }
-
 nav {
   margin:50px;
 }
-
-
 a{
   text-align: left;
   justify-content: left;
   display: flex;
   justify-content: space-between;
   font-family: terminal;
-  font-size: 40px;
-  /* -webkit-text-stroke: 0.5px black; */
+  font-size: 64px;
   color: white;
   text-decoration: none;
   padding-left:15px;
@@ -30,7 +26,6 @@ a{
   padding-bottom: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
-  border: dashed 0.6px;
 }
 
 a:hover {
@@ -38,15 +33,15 @@ a:hover {
   transition: .1s ease-in-out;
 }
 
-.credits {
+a.credits {
+  justify-content: center;
+  border: dashed 0.6px;
   text-decoration: none;
   font-family: terminal;
   line-height: 25px;
   z-index: 99;
-  padding: 10px;
-  font-size: 18px;
+  font-size: 24px;
 }
-
 div{
   text-decoration: none;
   font-family: terminal;
@@ -60,8 +55,16 @@ div{
   padding: 10px;
   font-size: 18px;
 }
-
+div.credits{
+  border: none;
+  padding:0;
+}
 .titre {
-  /* bottom:180px; */
+  max-width: 200px;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  font-size:24px;
+  border:none;
   color: #12fc35;
 }

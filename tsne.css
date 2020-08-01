@@ -16,11 +16,11 @@ h2{
   color:white;
   margin:50px;
   margin-bottom:25px;
-  box-shadow: 0 0 24px #00000075;
+  box-shadow: 0 0 36px #00000075;
   word-wrap: break-word;
   background-color: #ffffff25;
   text-shadow: 0 0 4px #000000;
-
+  border-radius: 5px;
 }
 
 div.description {
@@ -36,6 +36,7 @@ div.description {
   margin-top:25px;
   box-shadow: 0 0 24px #00000075;
   background-color: #ffffff25;
+  border-radius: 5px;
 }
 
 a.back {
