@@ -42,13 +42,8 @@ a:hover {
   text-decoration: none;
   font-family: terminal;
   line-height: 25px;
-  font-size: 30px;
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
+
   z-index: 99;
-  border: dashed 0.6px;
-  color: white;
   padding: 10px;
   font-size: 18px;
 }
@@ -57,7 +52,6 @@ div{
   text-decoration: none;
   font-family: terminal;
   line-height: 25px;
-  font-size: 30px;
   position: fixed;
   bottom: 50px;
   right: 50px;
