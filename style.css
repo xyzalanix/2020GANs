@@ -9,6 +9,7 @@ body {
   justify-content: left;
 }
 nav {
+  line-height:40px;
   margin:50px;
 }
 a{

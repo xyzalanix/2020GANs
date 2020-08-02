@@ -103,8 +103,6 @@ video {
   animation: fadeIn 0.5s;
 }
 
-
-
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
