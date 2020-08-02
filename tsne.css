@@ -18,11 +18,13 @@ h2{
   margin-bottom:25px;
   box-shadow: 0 0 36px #00000075;
   word-wrap: break-word;
+  max-width: 850px;
   /* background-color: #ffffff25; */
   text-shadow: 0 0 4px #000000;
 }
 
 div.description {
+  max-width: 850px;
   color: #white;
   text-shadow: 0 0 4px #000000;
   z-index: 3;
@@ -30,7 +32,7 @@ div.description {
   font-size: 22px;
   text-align: left;
   justify-content: left;
-  padding:10px;
+  padding:15px;
   margin:50px;
   margin-top:25px;
   box-shadow: 0 0 24px #00000075;
