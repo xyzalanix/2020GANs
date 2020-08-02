@@ -41,7 +41,10 @@ a.credits {
   line-height: 25px;
   z-index: 99;
   font-size: 24px;
+
 }
+
+
 div{
   text-decoration: none;
   font-family: terminal;
@@ -58,6 +61,7 @@ div{
 div.credits{
   border: none;
   padding:0;
+  background-color: black;
 }
 .titre {
   max-width: 200px;
@@ -67,4 +71,5 @@ div.credits{
   font-size:24px;
   border:none;
   color: #12fc35;
+  background-color: black;
 }
