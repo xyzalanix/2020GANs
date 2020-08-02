@@ -2,17 +2,23 @@
   font-family: terminal;
   src: url("terminal-grotesque-webfont.woff") format("woff");
 }
+@font-face {
+  font-family: cirrus;
+  src: url("CirrusCumulus.woff") format("woff");
+}
 body {
   background-color: #000;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
 }
+
 nav {
   line-height:40px;
   margin:50px;
 }
-a{
+
+a, h1{
   text-align: left;
   justify-content: left;
   display: flex;
@@ -28,8 +34,15 @@ a{
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
+h1 {
+  margin-bottom: 10px;
+  font-family: cirrus;
+  font-size: 32px;
+  color: #12fc35;
+  text-decoration: underline;
+}
 a:hover {
+  padding-left: 100px;
   color: #12fc35;
   transition: .1s ease-in-out;
 }
@@ -42,7 +55,9 @@ a.credits {
   line-height: 25px;
   z-index: 99;
   font-size: 24px;
-
+}
+a.credits:hover{
+  padding-left:15px;
 }
 
 
