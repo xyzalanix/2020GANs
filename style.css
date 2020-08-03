@@ -80,6 +80,7 @@ div.credits{
   background-color: black;
 }
 .titre {
+  font-family: cirrus;
   max-width: 200px;
   position: fixed;
   bottom: 50px;
