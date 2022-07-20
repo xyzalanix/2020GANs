@@ -74,11 +74,11 @@ void main(){
 				var scroll = 1.0;
 				sandbox.setUniform("scale", scroll);
 
-				/* document.addEventListener("wheel", function(e){
+				document.addEventListener("wheel", function(e){
 					scroll = Math.min(7.0, Math.max(0.5, scroll + e.deltaY/500.0));
 					console.log(scroll);
 					sandbox.setUniform("scale", scroll);
-				}); */
+				});
 
         function myFunction() {
           var popup = document.getElementById("myPopup");
